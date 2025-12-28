@@ -1,10 +1,9 @@
 """Sample doc string."""
 
-import argparse
-
-from farm_robot.definitions import DEFAULT_LOG_LEVEL, LogLevel
-from farm_robot.utils import setup_logger
 from loguru import logger
+
+from farm_robot.definitions import DEFAULT_LOG_LEVEL
+from farm_robot.utils import setup_logger
 
 
 def main(

@@ -2,12 +2,8 @@
 
 import argparse
 
-from loguru import logger
-
 from farm_robot.app import main
 from farm_robot.definitions import DEFAULT_LOG_LEVEL, LogLevel
-from farm_robot.utils import setup_logger
-
 
 if __name__ == "__main__":  # pragma: no cover
     parser = argparse.ArgumentParser("Run the pipeline.")
