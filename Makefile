@@ -40,11 +40,11 @@ update-deep:
 	make update
 
 docker:
-	docker build --no-cache -f Dockerfile -t {{ cookiecutter.module_name }}-smoke .
-	docker run --rm {{ cookiecutter.module_name }}-smoke
+	docker build --no-cache -f Dockerfile -t farm_robot-smoke .
+	docker run --rm farm_robot-smoke
 
 app:
-	uv run python -m {{ cookiecutter.module_name }}
+	uv run python -m farm_robot
 
 tree:
 	uv run python repo_tree.py --update-readme

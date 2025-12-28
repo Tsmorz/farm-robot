@@ -4,9 +4,9 @@ import argparse
 
 from loguru import logger
 
-from {{ cookiecutter.module_name }}.app import main
-from {{ cookiecutter.module_name }}.definitions import DEFAULT_LOG_LEVEL, LogLevel
-from {{ cookiecutter.module_name }}.utils import setup_logger
+from farm_robot.app import main
+from farm_robot.definitions import DEFAULT_LOG_LEVEL, LogLevel
+from farm_robot.utils import setup_logger
 
 
 if __name__ == "__main__":  # pragma: no cover

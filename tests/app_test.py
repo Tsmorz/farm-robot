@@ -1,6 +1,6 @@
 """Test the main program."""
 
-from {{ cookiecutter.module_name }}.app import main
+from farm_robot.app import main
 
 
 def test_main():
